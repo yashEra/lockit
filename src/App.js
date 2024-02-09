@@ -1,16 +1,22 @@
-import recat from 'react'
-import NavBar from './components/navbar/NavBar'
-import Hero from './components/hero-section/HeroSection'
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 const App = () => {
-    return (
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          {/* <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} /> */}
 
-        <div>
-          <NavBar/>
-          <Hero/>
-            
-        </div>
-        )
-    }
-    
-    export default App
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+};
+
+export default App;
