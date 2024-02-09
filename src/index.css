@@ -18,9 +18,9 @@
     h1{
         @apply text-3xl font-bold
     }
-    li{
+    /* li{
         @apply p-4
-    }
+    } */
     button{
         @apply bg-[#00A5AF] px-5 py-3 rounded-xl
     }

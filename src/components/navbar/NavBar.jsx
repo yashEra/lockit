@@ -15,9 +15,9 @@ const NavBar = () => {
         <div>
           <div className="hidden md:flex">
             <ul className="flex text-[#555555] items-center">
-              <li>Services</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
+              <li className="p-4">Services</li>
+              <li className="p-4">About Us</li>
+              <li className="p-4">Contact Us</li>
             </ul>
           </div>
           <div className="block md:hidden">
@@ -25,10 +25,10 @@ const NavBar = () => {
           </div>
           <div className={nav ? "w-full bg-[#00A5AF] text-[#f9ffff] absolute top-[79px] left-0 flex justify-center text-center" : "absolute left-[-100%]"}>
             <ul>
-              <li className="text-2xl">Services</li>
-              <li className="text-2xl">About Us</li>
-              <li className="text-2xl">Contact Us</li>
-              <button className="m-8">Get Start</button>
+              <li className="text-2xl p-4">Services</li>
+              <li className="text-2xl p-4">About Us</li>
+              <li className="text-2xl p-4">Contact Us</li>
+              <button className="ml-4 text-[#00A5AF] bg-white">Get Start</button>
             </ul>
           </div>
         </div>

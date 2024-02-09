@@ -3,7 +3,7 @@ const FeaturesCard = (props) => {
       <div className="bg-[white] drop-shadow-md rounded-xl transform hover:scale-105 duration-300 hover:shadow-lg">
         <a href="#">
           <img
-            className="h-72 md:h-[172px] w-full object-center rounded-lg"
+            className="h-72 md:h-[172px] w-full object-center rounded-lg pt-4"
             src={`http://localhost:3000/images/${props.icon}`}
             alt="Product Image"
           />
