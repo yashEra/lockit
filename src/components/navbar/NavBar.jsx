@@ -33,10 +33,10 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
-        <div>
+      </div>
+      <div>
           <button className="hidden lg:flex ml-4 text-white">Get Start</button>
           </div>
-      </div>
     </div>
   );
 };
