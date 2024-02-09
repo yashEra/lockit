@@ -19,7 +19,7 @@ const ContactForm = () => {
               className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-[#00A5AF] focus:outline-none focus:ring-0"
               type="text"
               name="lastname"
-              placeholder="First Name"
+              placeholder="Last Name"
               required
             />
           </div>

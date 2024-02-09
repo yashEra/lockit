@@ -3,10 +3,10 @@ import ButtonTwo from "../button/ButtonTwo";
 const Footer = () => {
   return (
     <div className="bg-[#00A5AF]">
-      <div className=" text-white w-full py-[60px] grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-left px-[5%] md:px-[10%]">
+      <div className=" text-white w-full py-[20px] grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-left px-6 md:px-[10%]">
         <div className="flex flex-col items-start pt-8">
           <h2 className="font-bold text-xl py-4t text-center">Lockit Team</h2>
-          <span className="text-left text-[#8EF2EC] font-medium text-justify">
+          <span className="text-[#8EF2EC] font-medium text-justify pt-2">
             At Lockit, we're passionate about enhancing the safety and security
             of cyclists everywhere. Our mission is to provide innovative
             solutions that protect your bicycle and give you peace of mind,
@@ -32,19 +32,21 @@ const Footer = () => {
           </li>
         </ul>
       </div> */}
-        <div className="flex flex-col items-start pt-8">
+      <div className="flex flex-col items-start lg:items-center">
+        <div className="flex flex-col items-start lg:pt-8">
           <h2 className="font-bold text-xl py-4">Quick Links</h2>
           <ul className="flex flex-col items-start font-medium">
-            <li className="text-[#8EF2EC]">
+            <li className="text-[#8EF2EC] py-2">
               <a href="#">About Us</a>
             </li>
-            <li className="text-[#8EF2EC]">
+            <li className="text-[#8EF2EC] py-2">
               <a href="#">Services</a>
             </li>
-            <li className="text-[#8EF2EC]">
+            <li className="text-[#8EF2EC] py-2">
               <a href="#">Contact Us</a>
             </li>
           </ul>
+        </div>
         </div>
         <div className="flex flex-col items-start pt-8">
           <ButtonTwo />

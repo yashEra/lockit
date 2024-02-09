@@ -1,10 +1,12 @@
+import Playstore from "../../assets/images/playstore.png";
+
 const ButtonOne = () => {
   return (
     <div className="m-8">
       <button className="w-[286px] flex justify-center mt-4 font-bold text-white">
         Download App{" "}
         <img
-          src="http://localhost:3000/images/playstore.png"
+          src={Playstore}
           className="pl-4"
           alt="playstore"
         />
