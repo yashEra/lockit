@@ -17,7 +17,7 @@ const NavBar = () => {
           <div className="hidden md:flex">
             <ul className="flex text-[#555555] items-center">
               <li className="p-4">Services</li>
-              <li className="p-4">About Us</li>
+              <li className="p-4"><a href="about">About Us</a></li>
               <li className="p-4">Contact Us</li>
             </ul>
           </div>
@@ -45,10 +45,10 @@ const NavBar = () => {
           >
             <ul>
               <li className="text-2xl p-4">Services</li>
-              <li className="text-2xl p-4">About Us</li>
+              <li className="text-2xl p-4"> <a href="about">About US</a></li>
               <li className="text-2xl p-4">Contact Us</li>
               <button className="ml-4 text-[#00A5AF] bg-white w-[286px]">
-                Get Start
+                <a href="login">Get Start</a>
               </button>
             </ul>
           </div>

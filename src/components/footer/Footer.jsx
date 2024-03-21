@@ -52,7 +52,7 @@ const Footer = () => {
           <ButtonTwo />
         </div>
       </div>
-      <div className="flex flex-row justify-center py-8 px-[5%] md:px-[10%]">
+      <div className="flex flex-row justify-center py-8 px-[5%] md:px-[10%] px-8">
         <span className="text-md text-white font-bold">
           Made With 💗 By Team Lockit. All Right Reserved.
         </span>
