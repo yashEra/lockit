@@ -11,7 +11,7 @@ const NavBar = () => {
     <div className="w-full h-[80px] font-bold">
       <div className="max-w-[1140px] 2xl:max-w-[1240px] lg:mx-auto px-4 flex justify-between items-center h-full mx-6">
         <div>
-          <img src={Logo} alt="logo" />
+          <a href="/"><img src={Logo} alt="logo" /></a>
         </div>
         <div>
           <div className="hidden md:flex">

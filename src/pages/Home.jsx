@@ -56,7 +56,7 @@ const Home = () => {
         <ButtonOne />
       </div>
       <MainTitle main="Getting Touch With Us" />
-      <div className="flex flex-col lg:items-center pb-8 px-6">
+      <div className="flex flex-col lg:items-center pb-8 px-6 ">
         <ContactForm />
       </div>
       <Footer />
