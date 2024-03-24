@@ -48,13 +48,13 @@ const NavBar = () => {
               <li className="text-2xl p-4"> <a href="about">About US</a></li>
               <li className="text-2xl p-4">Contact Us</li>
               <button className="ml-4 text-[#00A5AF] bg-white w-[286px]">
-                <a href="login">Get Start</a>
+                <a href="manage-devices">Get Start</a>
               </button>
             </ul>
           </div>
         </div>
         <div className="hidden lg:flex">
-          <button className="ml-4 text-white">Get Start</button>
+          <button className="ml-4 text-white"><a href="manage-devices">Get Start</a></button>
         </div>
       </div>
     </div>
